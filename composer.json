@@ -85,5 +85,11 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
+    },
+    "repositories": {
+        "data-migration-tool": {
+            "type": "github",
+            "url": "https://github.com/magento/data-migration-tool"
+        }
     }
 }
